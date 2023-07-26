@@ -17,7 +17,7 @@ public class Main {
 			totalSum += numbers[i + k];
 			maxSum = Math.max(totalSum, maxSum);
 		}
-    return maxSum/k;
+		return maxSum/k;
 	}
 
 	public static double findSumOfNumbers(final int[] numbers, final int k) {
